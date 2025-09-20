@@ -86,3 +86,10 @@ git push -u origin main
 git add.
 git add .
 git add .
+git --help
+__vsc_prompt_cmd_original
+git commit -m "Initial commit"
+git add .
+git push -u origin main
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
